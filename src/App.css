@@ -1,0 +1,13 @@
+.app-name {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.container {
+  height: 100vh;
+  background: #f7f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

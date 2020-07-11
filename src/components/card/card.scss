@@ -1,0 +1,58 @@
+.main-card {
+  background: #3d4953;
+  position: relative;
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px -8px #000;
+  padding: 32px;
+}
+
+.score-card {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 2px 6px 24px 0 #000;
+  background: inherit;
+  position: absolute;
+  top: calc(50% / 2);
+  right: -125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    font-size: 88px;
+    color: #f7f8f8;
+  }
+}
+
+.input-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+
+.about-text {
+  label {
+    color: #f7f8f8;
+  }
+}
+
+.input-text {
+  margin-top: auto;
+}
+
+textarea {
+  resize: none;
+  width: calc(100% - 20px);
+  font-family: inherit;
+  padding: 10px;
+  -webkit-highlight: none;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
